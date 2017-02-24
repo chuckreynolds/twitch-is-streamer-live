@@ -14,8 +14,12 @@ I'm acutely aware my JS skills aren't awesome; therefore if there are any **perf
 - package for npm/yarn
 
 ## Screenshots
+First two are live streams, third is offline.
+
 ![Screenshot 1 Teawrex online](https://github.com/chuckreynolds/twitch-is-streamer-live/raw/master/img/screenshot-1.png)
+
 ![Screenshot 2 Monstercat online](https://github.com/chuckreynolds/twitch-is-streamer-live/raw/master/img/screenshot-2.png)
+
 ![Screenshot 3 Clintusgames offline](https://github.com/chuckreynolds/twitch-is-streamer-live/raw/master/img/screenshot-3.png)
 
 ## Contact
