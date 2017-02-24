@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Is a Twitch channel live or not?</title>
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<script src="https://ttv-api.s3.amazonaws.com/twitch.min.js"></script>
+	<script defer src="./js/app.js"></script>
+	<style type="text/css">
+		.row {
+			max-width: 780px;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="row">
+		<p>Basic premise here was to build a quick minimal way to find out if a Twitch streamer is live and pull some simple data about them and the channel. I just wanted something easy to put on a friend's site, and couldn't find anything so I made this.</p>
+
+		<p>I'm acutely aware my JS skills aren't awesome; therefore if there are any <strong>performance</strong> or other <strong>improvements</strong> to be made by you genious JS devs.. feel free to <a href="https://github.com/chuckreynolds/twitch-is-streamer-live/issues/new">open an Issue</a> or drop a Pull Request.</p>
+
+		<hr>
+	</div>
+
+	<div class="row" id="twitch"></div>
+
+</body>
+</html>
