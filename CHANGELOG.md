@@ -19,6 +19,4 @@ All notable changes to this project will be documented in this file.
 - old screenshots
 
 ## [0.1.0] - 2017-02-23
-### Changed
-- Remove exclusionary mentions of "open source" since this project can benefit
-both "open" and "closed" source projects equally.
+- Initial release of this script using jquery
