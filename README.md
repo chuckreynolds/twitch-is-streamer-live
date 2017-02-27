@@ -16,7 +16,7 @@ I'm acutely aware my JS skills aren't awesome; therefore if there are any **perf
 - package for npm/yarn
 
 ## Screenshots
-![Screenshot 1 ProfessorBroman online](https://github.com/chuckreynolds/twitch-is-streamer-live/raw/master/img/screenshot-1.png)
+![Screenshot 1 ProfessorBroman online](https://github.com/chuckreynolds/twitch-is-streamer-live/raw/master/img/v020-screenshot.png)
 
 ## Contact
 [@chuckreynolds](https://twitter.com/chuckreynolds) on twitter
