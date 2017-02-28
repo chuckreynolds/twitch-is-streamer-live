@@ -49,20 +49,23 @@ function populateTwitchInfo(twitch, tw_username) {
 		var streamInfo  = data[1];
 		//console.log(streamInfo);
 
-		var tw_channel_url       = channelInfo.url;
-		var tw_channel_followers = channelInfo.followers;
-		var tw_channel_views     = channelInfo.views;
-		var liveMessage          = document.getElementById("twitch");
+		var tw_channel_url         = channelInfo.url;
+		var tw_channel_followers   = channelInfo.followers;
+		var tw_channel_views       = channelInfo.views;
+		var tw_channel_status      = channelInfo.status;
+		var tw_channel_displayname = channelInfo.display_name;
+		var liveMessage            = document.getElementById("twitch");
 
 		// are we live?
 		if (!!streamInfo.stream) {
 			// live? YES
-			var tw_game     = streamInfo.stream.game;
-			var tw_viewers  = streamInfo.stream.viewers;
-			var tw_preview  = streamInfo.stream.preview.medium;
+			var tw_game    = streamInfo.stream.game;
+			var tw_viewers = streamInfo.stream.viewers;
+			var tw_preview = streamInfo.stream.preview.medium;
 
-			liveMessage.innerHTML = '<a href="' + tw_channel_url + '">' + tw_username + ' is ONLINE!</a> Playing ' + tw_game + ' with ' + tw_viewers + ' viewers.'
-														+ '<br><img src="' + tw_preview + '">';
+			liveMessage.innerHTML = '<a href="' + tw_channel_url + '">' + tw_channel_displayname + ' is ONLINE!</a> Playing ' + tw_game + ' for ' + tw_viewers + ' viewers.'
+								  + '<br>Title: ' + tw_channel_status
+								  + '<br><img src="' + tw_preview + '">';
 		} else {
 			// live? NO
 			return;
